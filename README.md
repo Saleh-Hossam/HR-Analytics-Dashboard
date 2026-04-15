@@ -1,33 +1,30 @@
 # HR Analytics Dashboard — Power BI
 
-A 4-page Power BI dashboard built on a fictional HR dataset covering 1,470 employees across three departments (HR, Sales, Technology) from 2012 to 2022. The project was redesigned from scratch with a new design language and a stronger analytical narrative, using the same underlying data model.
-
-## Dashboard 
+A 4-page Power BI dashboard built on a fictional HR dataset covering 1,470 employees across three departments (HR, Sales, Technology) from 2012 to 2022. The project was redesigned from scratch — layout and visual language prototyped in Figma before being built in Power BI — with a new design language and a stronger analytical narrative, using the same underlying data model.
 
 ---
+
 ## Preview
 
-![Executive Summary](assets/executive_summary.png)
+![Executive Summary](assets/Exective_Summary.png)
 
 ---
+
+## Pages
 
 ### Page 1 — Executive Summary
 High-level financial and attrition overview for leadership.
 
 **KPIs:** Total Employees · Attrition Rate · Cost of Turnover · Early Exit Turnover Cost · Avg Salary
 
-**Key finding:** Sales and Technology account for 95% of total turnover cost ($14.07M of $14.62M). Data Scientists and Sales Executives are the highest-risk roles — high headcount combined with above-average attrition rates.
+**Key finding:** Sales and Technology together account for 95% of total turnover cost ($14.07M of $14.62M). Data Scientists and Sales Executives are the highest-risk roles — high headcount combined with above-average attrition rates.
 
 ---
 
 ### Page 2 — Attrition & Retention
 
----
-## Preview
+![Attrition & Retention](assets/Attrition___Retention.png)
 
-![Attrition & Retention](assets/attrition_retention.png)
-
----
 Breaks down who is leaving, when, and why.
 
 **KPIs:** New Hires · Attrition Count · Net Headcount Change · Attrition Rate · Retention Rate
@@ -38,12 +35,8 @@ Breaks down who is leaving, when, and why.
 
 ### Page 3 — Performance & Development
 
----
-## Preview
+![Performance & Development](assets/performance_development.png)
 
-![Performance & Development](assets/performance_development.png) 
-
----
 Performance distribution and training data, filtered to a single review year (default: 2021).
 
 **KPIs:** Avg Performance Rate · Reviewed Employees · Training Participation Rate · % High Performers · % Low Performers
@@ -56,28 +49,20 @@ Performance distribution and training data, filtered to a single review year (de
 
 ### Page 4 — Demographics & Risk
 
----
-## Preview
-
-![Demographics & Risk](assets/demographics_risk.png)
-
----
+![Demographics & Risk](assets/Demograhpics___Risk.png)
 
 Workforce composition and attrition risk by education and age.
 
 **KPIs:** Active Employees · Avg Age · Avg Work-Life Balance · Avg Tenure · Years Since Last Promotion
 
-**Key finding:** Attrition risk decreases consistently with education level — No Formal Qualifications: 18.24%, High School: 18.07%, Bachelors: 17.32%, Masters: 14.57%, Doctorate: 10.42%. Young Professionals carry the highest attrition rate at 22.59%.
+**Key finding:** Attrition risk decreases consistently with education level — No Formal Qualifications: 18.24%, Bachelors: 17.31%, Masters: 14.57%, Doctorate: 10.42%. Young Professionals carry the highest attrition rate at 22.59%.
 
 ---
 
 ## Data Model
----
-## Preview
 
-![Data_Model](assets/Data_model.png)
+![Data Model](assets/Data_model.png)
 
----
 Star schema with two fact tables and five lookup/dimension tables:
 
 | Table | Type | Description |
@@ -94,14 +79,15 @@ Star schema with two fact tables and five lookup/dimension tables:
 
 ## Measures
 
-Organized into 7 folders:
+Organized into 8 folders:
 
 - **Attrition & Retention** — Attrition Count, Attrition Rate, Net Headcount Change, Retention Rate, # Attrition Last Year, Attrition YTD
 - **Compensation & Rewards** — Avg Salary, Cost of Turnover, Early Exit Turnover Cost, Total Salary Expense
-- **Employee Demographics** — Active #Employees, AvgAge, Department Headcount, Female %, Male %, New Hires, Total Employees, and range measures (Min/Max Age, Salary, HireDate)
+- **Employee Demographics** — Active #Employees, Avg Age, Department Headcount, Female %, Male %, New Hires, Total Employees, and range measures (Min/Max Age, Salary, HireDate)
 - **Performance & Productivity** — #Reviewed Employees, % High/Mid/Low Performers, Avg Performance Rate
 - **Satisfaction & Engagement** — Avg Job Satisfaction, Avg Relationship Satisfaction, Avg Work-Life Balance
 - **Tenure & Experience** — Avg Tenure Years, Avg Years in Most Recent Role, Avg Years Since Last Promotion, Avg Years with Current Manager
+- **Time Intelligence** — # Attrition Last Year, Attrition YTD
 - **Training & Development** — Avg Opportunities Taken, Avg Opportunities Within Year, Training Participation Rate
 
 **Custom measure used in Page 3 matrix:**
@@ -112,7 +98,7 @@ CALCULATE(
     ALL(DimDate)
 )
 ```
-This prevents the year slicer from distorting the attrition rate column when comparing across tenure groups.
+Prevents the year slicer from distorting the attrition rate column when comparing across tenure groups.
 
 ---
 
@@ -126,6 +112,8 @@ This prevents the year slicer from distorting the attrition rate column when com
 | Neutral bars | Warm grey |
 | Navigation | Fixed left panel |
 | Insight boxes | Bottom of every page — key takeaway in bold |
+
+Layout and color language prototyped in Figma before build.
 
 ---
 
