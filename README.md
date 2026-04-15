@@ -19,8 +19,9 @@ A 4-page Power BI dashboard built on a fictional HR dataset covering 1,470 emplo
 
 ---
 ## Preview
-|---|---|
+
 | ![Executive Summary](assets/executive_summary.png) | 
+
 ---
 
 ### Page 1 — Executive Summary
