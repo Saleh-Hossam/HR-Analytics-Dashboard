@@ -23,7 +23,7 @@ High-level financial and attrition overview for leadership.
 
 ### Page 2 — Attrition & Retention
 
-![Attrition & Retention](assets/Attrition___Retention.png)
+![Attrition & Retention](assets/Attrition_Retention.png)
 
 Breaks down who is leaving, when, and why.
 
@@ -49,7 +49,7 @@ Performance distribution and training data, filtered to a single review year (de
 
 ### Page 4 — Demographics & Risk
 
-![Demographics & Risk](assets/Demograhpics___Risk.png)
+![Demographics & Risk](assets/Demograhpics_Risk.png)
 
 Workforce composition and attrition risk by education and age.
 
