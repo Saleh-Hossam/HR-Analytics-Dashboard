@@ -6,7 +6,7 @@ A 4-page Power BI dashboard built on a fictional HR dataset covering 1,470 emplo
 
 ## Preview
 
-![Executive Summary](assets/Exective_Summary.png)
+![Executive Summary](assets/executive_summary.png)
 
 ---
 
@@ -23,7 +23,7 @@ High-level financial and attrition overview for leadership.
 
 ### Page 2 — Attrition & Retention
 
-![Attrition & Retention](assets/Attrition_Retention.png)
+![Attrition & Retention](assets/attrition_retention.png)
 
 Breaks down who is leaving, when, and why.
 
@@ -49,7 +49,7 @@ Performance distribution and training data, filtered to a single review year (de
 
 ### Page 4 — Demographics & Risk
 
-![Demographics & Risk](assets/Demograhpics_Risk.png)
+![Demographics & Risk](assets/demographics_risk.png)
 
 Workforce composition and attrition risk by education and age.
 
