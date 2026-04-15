@@ -8,7 +8,7 @@ A 4-page Power BI dashboard built on a fictional HR dataset covering 1,470 emplo
 
 | Executive Summary | Attrition & Retention |
 |---|---|
-| ![Executive Summary](assets/executive_summary.png) | ![Attrition & Retention](assets/attrition_retention.png) |
+|  ![Attrition & Retention](assets/attrition_retention.png) |
 
 | Performance & Development | Demographics & Risk |
 |---|---|
@@ -16,8 +16,12 @@ A 4-page Power BI dashboard built on a fictional HR dataset covering 1,470 emplo
 
 ---
 ## Dashboard 
+
+---
 ## Preview
-| ![Executive Summary](assets/executive_summary.png)
+|---|---|
+| ![Executive Summary](assets/executive_summary.png) | 
+---
 
 ### Page 1 — Executive Summary
 High-level financial and attrition overview for leadership.
