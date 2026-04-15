@@ -72,7 +72,12 @@ Workforce composition and attrition risk by education and age.
 ---
 
 ## Data Model
+---
+## Preview
 
+![Data_Model](assets/Data_model.png)
+
+---
 Star schema with two fact tables and five lookup/dimension tables:
 
 | Table | Type | Description |
