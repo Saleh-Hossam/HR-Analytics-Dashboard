@@ -15,7 +15,9 @@ A 4-page Power BI dashboard built on a fictional HR dataset covering 1,470 emplo
 | ![Performance & Development](assets/performance_development.png) | ![Demographics & Risk](assets/demographics_risk.png) |
 
 ---
-## Dashboard Pages
+## Dashboard 
+## Preview
+| ![Executive Summary](assets/executive_summary.png)
 
 ### Page 1 — Executive Summary
 High-level financial and attrition overview for leadership.
