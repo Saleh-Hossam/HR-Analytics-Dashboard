@@ -142,3 +142,4 @@ This prevents the year slicer from distorting the attrition rate column when com
 - Power BI Desktop
 - DAX
 - Power Query
+- Figma
