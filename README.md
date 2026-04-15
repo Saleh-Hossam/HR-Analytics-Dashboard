@@ -2,25 +2,12 @@
 
 A 4-page Power BI dashboard built on a fictional HR dataset covering 1,470 employees across three departments (HR, Sales, Technology) from 2012 to 2022. The project was redesigned from scratch with a new design language and a stronger analytical narrative, using the same underlying data model.
 
----
-
-## Preview
-
-| Executive Summary | Attrition & Retention |
-|---|---|
-|  ![Attrition & Retention](assets/attrition_retention.png) |
-
-| Performance & Development | Demographics & Risk |
-|---|---|
-| ![Performance & Development](assets/performance_development.png) | ![Demographics & Risk](assets/demographics_risk.png) |
-
----
 ## Dashboard 
 
 ---
 ## Preview
 
-| ![Executive Summary](assets/executive_summary.png) | 
+![Executive Summary](assets/executive_summary.png)
 
 ---
 
@@ -34,6 +21,13 @@ High-level financial and attrition overview for leadership.
 ---
 
 ### Page 2 — Attrition & Retention
+
+---
+## Preview
+
+![Attrition & Retention](assets/attrition_retention.png)
+
+---
 Breaks down who is leaving, when, and why.
 
 **KPIs:** New Hires · Attrition Count · Net Headcount Change · Attrition Rate · Retention Rate
@@ -43,6 +37,13 @@ Breaks down who is leaving, when, and why.
 ---
 
 ### Page 3 — Performance & Development
+
+---
+## Preview
+
+![Performance & Development](assets/performance_development.png) 
+
+---
 Performance distribution and training data, filtered to a single review year (default: 2021).
 
 **KPIs:** Avg Performance Rate · Reviewed Employees · Training Participation Rate · % High Performers · % Low Performers
@@ -54,6 +55,14 @@ Performance distribution and training data, filtered to a single review year (de
 ---
 
 ### Page 4 — Demographics & Risk
+
+---
+## Preview
+
+![Demographics & Risk](assets/demographics_risk.png)
+
+---
+
 Workforce composition and attrition risk by education and age.
 
 **KPIs:** Active Employees · Avg Age · Avg Work-Life Balance · Avg Tenure · Years Since Last Promotion
